@@ -1,11 +1,23 @@
 import '../navbar/header.css'
 
-function navbar() {
+function Navbar() {
     return (
         <>
-            <p>hola</p>
+            <Links></Links>
         </>
     );
 }
 
-export default navbar;
+export function Links() {
+    return (
+        <>
+            <a href="../../inicio/Inicio.jsx">Inicio</a>
+            <a href="../../inicio/Inicio.jsx">Productos</a>
+            <a href="../../inicio/Inicio.jsx">Servicios</a>
+            <a href="../../inicio/Inicio.jsx">Contacto</a>
+        </>
+    );
+}
+
+
+export default Navbar;

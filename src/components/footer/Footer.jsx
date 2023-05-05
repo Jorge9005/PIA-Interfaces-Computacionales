@@ -1,11 +1,11 @@
 import '../footer/footer.css'
-import { Link } from 'react-router-dom';
+import { Links } from '../navbar/Header';
 
 function Footer() {
     return (
-        <>
-            <Link>Link</Link>
-        </>
+        <div>
+            <Links></Links>
+        </div>
     );
 }
 

@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 function Navbar(props) {
     return (
         <div>
+            <LinksNav></LinksNav>
+        </div>
+    );
+}
+
+export function LinksNav(){
+    return(
+        <div>
             <Link className='blog-header-logo' to={'/inicio'}>Inicio</Link>
             <Link className='blog-header-logo' to={'/productos'}>Productos</Link>
             <Link className='blog-header-logo' to={'/servicios'}>Servicios</Link>

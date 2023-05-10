@@ -1,10 +1,11 @@
 import '../footer/footer.css'
-import { Links } from '../header/Navbar';
+import Navbar from '../header/Navbar';
 
 function Footer() {
     return (
         <div>
-            <Links></Links>
+            <Navbar></Navbar>
+            <p>Monterrey N.L., México, Tel: (81) 83.55.65.75, Contacto@Atlantadigital.com.mx</p>
         </div>
     );
 }

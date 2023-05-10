@@ -2,13 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:#2A44B2;
-    color: black;
+    background-color:#053F71;
     height: 70px;
     text-transform: uppercase;
 }
 
 .link-navbar{
     text-decoration: none;
-    color: black;
+    color: #05B8FE;
 }

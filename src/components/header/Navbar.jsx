@@ -1,29 +1,15 @@
 import './navbar.css'
-import { BrowserRouter } from 'react-router-dom';
-import AppRouter from '../../routes/AppRouter';
-import Inicio from '../../pages/Inicio';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <>
-            <BrowserRouter>
-                <AppRouter></AppRouter>
-            </BrowserRouter>
-            <Links></Links>
-        </>
+        <div>
+            <Link className='blog-header-logo' to={'/inicio'}>Inicio</Link>
+            <Link className='blog-header-logo' to={'/contacto'}>Contacto</Link>
+            <Link className='blog-header-logo' to={'/productos'}>Productos</Link>
+            <Link className='blog-header-logo' to={'/servicios'}>Servicios</Link>
+        </div>
     );
 }
-
-export function Links() {
-    return (
-        <>
-            <a href="../../inicio/Inicio.jsx">Inicio</a>
-            <a href="../../inicio/Inicio.jsx">Productos</a>
-            <a href="../../inicio/Inicio.jsx">Servicios</a>
-            <a href="../../inicio/Inicio.jsx">Contacto</a>
-        </>
-    );
-}
-
 
 export default Navbar;

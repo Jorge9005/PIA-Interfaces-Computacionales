@@ -1,0 +1,9 @@
+.wrapper-inicio{
+    background-image: url(/src/assets/img/wallpaper-inicio.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+.wrapper{
+    max-height: 100%;
+}

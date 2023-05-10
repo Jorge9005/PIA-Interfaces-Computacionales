@@ -1,0 +1,14 @@
+.wrapper-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#2A44B2;
+    color: black;
+    height: 70px;
+    text-transform: uppercase;
+}
+
+.link-navbar{
+    text-decoration: none;
+    color: black;
+}

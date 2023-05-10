@@ -1,21 +1,18 @@
-import './navbar.css'
 import { Link } from 'react-router-dom';
+import icono from '../../assets/img/icono.png'
+import './navbar.css'
 
-function Navbar(props) {
+function Navbar() {
     return (
         <div>
-            <LinksNav></LinksNav>
-        </div>
-    );
-}
-
-export function LinksNav(){
-    return(
-        <div>
-            <Link className='blog-header-logo' to={'/inicio'}>Inicio</Link>
-            <Link className='blog-header-logo' to={'/productos'}>Productos</Link>
-            <Link className='blog-header-logo' to={'/servicios'}>Servicios</Link>
-            <Link className='blog-header-logo' to={'/contacto'}>Contacto</Link>
+            <div className="wrapper-navbar">
+                <Link className='link-navbar' to={'/inicio'}><img src={icono} alt="logo"/></Link>
+                <p className='nav link-navbar'>Telecomunicaciones</p>
+                <Link className='link-navbar' to={'/inicio'}>Inicio</Link>
+                <Link className='link-navbar' to={'/productos'}>Productos</Link>
+                <Link className='link-navbar' to={'/servicios'}>Servicios</Link>
+                <Link className='link-navbar' to={'/contacto'}>Contacto</Link>
+            </div>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import '../footer/footer.css'
-import { Links } from '../navbar/Header';
+import { Links } from '../header/Navbar';
 
 function Footer() {
     return (

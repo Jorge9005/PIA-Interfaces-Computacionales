@@ -1,8 +1,14 @@
-import '../navbar/header.css'
+import './navbar.css'
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from '../../routes/AppRouter';
+import Inicio from '../../pages/Inicio';
 
 function Navbar() {
     return (
         <>
+            <BrowserRouter>
+                <AppRouter></AppRouter>
+            </BrowserRouter>
             <Links></Links>
         </>
     );

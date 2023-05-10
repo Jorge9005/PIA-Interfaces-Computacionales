@@ -1,4 +1,3 @@
-import '../productos/productos.css'
 
 function Productos() {
     return (

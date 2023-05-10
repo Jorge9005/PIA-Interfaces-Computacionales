@@ -1,4 +1,3 @@
-import '../contacto/contacto.css'
 
 function Contacto() {
     return (

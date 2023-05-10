@@ -1,4 +1,3 @@
-import '../inicio/inicio.css'
 
 function Inicio() {
     return (

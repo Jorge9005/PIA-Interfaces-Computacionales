@@ -1,4 +1,3 @@
-import '../servicios/servicios.css'
 
 function Servicios() {
     return (

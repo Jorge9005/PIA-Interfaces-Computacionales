@@ -8,14 +8,15 @@ import slide8 from '../assets/img/slide8.jpg'
 import slide9 from '../assets/img/slide9.jpg'
 import slide10 from '../assets/img/slide10.jpg'
 
+
 function Productos() {
     return (
         <div className='wrapper-Productos d-flex flex-row'>
             <div className="wrapper-panel-izq d-flex flex-column">
-                <a href="#" className='item-panel-izq'>Cableado Estructurado</a>
-                <a href="#" className='item-panel-izq'>Telefonía</a>
-                <a href="#" className='item-panel-izq'>Cómputo</a>
-                <a href="#" className='item-panel-izq'>CCTV</a>
+                <a href="google.com" className='item-panel-izq'>Cableado Estructurado</a>
+                <a href="google.com" className='item-panel-izq'>Telefonía</a>
+                <a href="google.com" className='item-panel-izq'>Cómputo</a>
+                <a href="google.com" className='item-panel-izq'>CCTV</a>
             </div>
             <div className="wrapper-panel-der">
                 <div className="wrapper-hero-productos">

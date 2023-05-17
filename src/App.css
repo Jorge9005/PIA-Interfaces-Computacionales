@@ -1,3 +1,4 @@
+/* INICIO */
 .wrapper-hero-inicio{
     background-image: url(/src/assets/img/wallpaper-inicio.jpg);
     background-size: cover;
@@ -8,10 +9,43 @@
     max-height: 100%;
 }
 
+.container-cards-incio{
+    transition: 0.3s;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.card-individual{
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card-individual:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-individual h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+
 /* PRODUCTOS */
+.wrapper-Productos{
+    background-image: url(/src/assets/img/wallpaper-inicio.jpg);
+    background-size: cover;
+}
+
 .wrapper-panel-izq{
     width: 10%;
-    background-color: #344F78;
+    background-color:rgba(9, 4, 54, 0.219);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -25,11 +59,11 @@
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: azure;
 }
 
 .item-panel-izq:hover{
-    background-color: #2957C2;
+    box-shadow: 0 4px 8px 0 rgba(9, 123, 189, 0.842);
 }
 
 .wrapper-panel-der{
@@ -38,13 +72,7 @@
     text-align: center;
     align-items: center;
     width: 90%;
-    background-image: url(/src/assets/img/wallpaper-inicio.jpg);
-    background-size: cover;
     color: white;
-}
-
-.subtitulo-panel-der-productos{
-    background-image: url(/src/assets/img/wallpaper-Network.jpg);
 }
 
 .carousel-menu-Productos{

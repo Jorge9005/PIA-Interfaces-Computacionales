@@ -1,8 +1,8 @@
 
 function Inicio() {
     return (
-        <div className="wrapper">
-            <div className="wrapper-inicio vh-100">
+        <div className="wrapper-inicio">
+            <div className="wrapper-hero-inicio vh-100">
                 <h1>Inicio</h1>
                 <ul>
                     <li>Atlanta Digital, creada y orientada a satisfacer las necesidades de las empresas en lo que a servicios de redes y Telecomunicaciones se refiere, cuenta con mas de 15 años de experiencia.</li>

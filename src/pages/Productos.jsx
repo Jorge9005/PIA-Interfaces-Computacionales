@@ -42,47 +42,47 @@ function Productos() {
                 <div class="productos-slider-container">
                     <div class="productos-slider">
                         <div class="productos-card">
-                            <img src={slide1} alt="Card Image 1"/>
+                            <img src={slide1}/>
                                 <h2>Card 1</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide2} alt="Card Image 2"/>
+                            <img src={slide2}/>
                                 <h2>Card 2</h2>
                                 <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide4} alt="Card Image 3"/>
+                            <img src={slide4}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide5} alt="Card Image 4"/>
+                            <img src={slide5}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide6} alt="Card Image 5"/>
+                            <img src={slide6}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide7} alt="Card Image 5"/>
+                            <img src={slide7}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide8} alt="Card Image 5"/>
+                            <img src={slide8}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide9} alt="Card Image 5"/>
+                            <img src={slide9}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                         <div class="productos-card">
-                            <img src={slide10} alt="Card Image 5"/>
+                            <img src={slide10}/>
                                 <h2>Card 3</h2>
                                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>

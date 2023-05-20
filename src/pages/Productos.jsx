@@ -24,16 +24,16 @@ function Productos() {
                 <div className={`panel ${isPanelOpen ? '' : 'hidden'}`}>
                     <ul>
                         <li>
-                            <a href="#">Sección 1</a>
+                            <a href="www.google.com">Sección 1</a>
                         </li>
                         <li>
-                            <a href="#">Sección 2</a>
+                            <a href="www.google.com">Sección 2</a>
                         </li>
                         <li>
-                            <a href="#">Sección 3</a>
+                            <a href="www.google.com">Sección 3</a>
                         </li>
                         <li>
-                            <a href="#">Sección 4</a>
+                            <a href="www.google.com">Sección 4</a>
                         </li>
                     </ul>
                 </div>

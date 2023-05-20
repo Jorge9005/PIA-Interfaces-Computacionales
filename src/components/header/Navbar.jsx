@@ -12,6 +12,7 @@ function Navbar() {
                 <Link className='link-navbar' to={'/productos'}>Productos</Link>
                 <Link className='link-navbar' to={'/servicios'}>Servicios</Link>
                 <Link className='link-navbar' to={'/contacto'}>Contacto</Link>
+                <Link className='link-navbar' to={'/equipo'}>Equipo</Link>
             </div>
         </div>
     );

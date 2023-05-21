@@ -1,6 +1,16 @@
-.wrapper-footer{
+.wrapper-footer {
     height: 30px;
     background-color: black;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .wrapper-footer {
+        height: 50px;
+        font-size: 14px;
+    }
 }

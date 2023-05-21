@@ -64,6 +64,12 @@ function Equipo() {
                         <td>IAS</td>
                         <td>8vo</td>
                     </tr>
+                    <tr>
+                        <td>Manuel Salvador Vaquerizo Gonzalez</td>
+                        <td>1810939</td>
+                        <td>IAS</td>
+                        <td>8vo</td>
+                    </tr>
                 </table>
                 <div className="container-tabla-datos">
                     <table className="tabla-datos">

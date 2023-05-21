@@ -1,4 +1,5 @@
 .wrapper-navbar {
+  position: relative; /* Añadimos posición relativa al contenedor principal */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,17 +7,12 @@
   background-color: #f0f0f0;
 }
 
-.wrapper-icono-navbar{
-  padding-right: 10px;
-}
-
-.links img{
-  width: 100px;
+.wrapper-icono-navbar img{
+  height: 40px;
 }
 
 .toggle-button {
   display: none;
-  border-radius: 2px;
 }
 
 .link-navbar {
@@ -26,8 +22,19 @@
 }
 
 .links {
-  display: flex;
+  position: absolute;
+  top: 100%; /* Cambiamos la posición de top a 100% */
+  left: 0;
+  display: none;
   flex-direction: column;
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.links.show {
+  display: flex;
 }
 
 @media (max-width: 500px) {
@@ -41,13 +48,14 @@
   }
 
   .links {
-    display: none;
-    position: fixed;
+    position: absolute;
+    top: 100%; /* Cambiamos la posición de top a 100% */
     left: 0;
-    top: 50px;
-    width: 100%;
-    padding: 10px;
+    display: none;
+    flex-direction: column;
     background-color: #f0f0f0;
+    padding: 10px;
+    width: 100%;
     transition: all 0.3s ease-in;
   }
 
@@ -67,6 +75,7 @@
   }
 
   .links {
+    position: static; /* Cambiamos la posición a estática */
     display: flex;
     flex-direction: row;
   }

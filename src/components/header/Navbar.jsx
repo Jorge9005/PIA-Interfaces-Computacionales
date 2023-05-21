@@ -16,9 +16,9 @@ function Navbar() {
         <button className="toggle-button" onClick={toggleLinks}>
           Menu
         </button>
-          <div className="wrapper-icono-navbar">
-              <img src={icono} alt="icono"/>
-          </div>
+        <div className="wrapper-icono-navbar">
+          <img src={icono} alt="icono" />
+        </div>
         <div className={`links ${showLinks ? 'show' : ''}`}>
           <Link className='link-navbar' to={'/inicio'}>
             Inicio

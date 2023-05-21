@@ -1,18 +1,28 @@
 
 function Contacto() {
     return (
-        <>
-            <form action="">
-                <h1>¡Escríbenos!</h1>
-                <h3>¡Asesoría disponible las 24 hrs del día!</h3>
-                <ul>
-                    <li><input type="text" id="name" placeholder="Escribe tu nombre*"/></li>
-                    <li><input type="text" id="email" placeholder="Escribe tu correo*"/></li>
-                    <li><input type="text" id="asunto" placeholder="Asunto: ¡cuéntanos de qué va la consulta!*"/></li>
-                    <li><textarea type="text" id="msg" placeholder="Mensaje: ¡explícanos lo que necesitas!*"/></li>
-                </ul>
-            </form>
-        </>
+        <div className="wrapper-contacto">
+            <div className="hero-wrapper">
+                <h1>Contacto</h1>
+                <form method="POST">
+                    <div className="form-group">
+                        <label htmlFor="name">Nombre</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div className="form-group">
+                        <input type="submit" value="Enviar" className="btn" />
+                    </div>
+                </form>
+            </div>
+        </div>
     );
 }
 

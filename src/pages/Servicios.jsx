@@ -7,8 +7,7 @@ function Servicios() {
     return (
         <div className="wrapper-servicios">
             <div class="container-servicios">
-                <h1>Servicios de Tecnologías de la Información</h1>
-
+                <h1 className='container-titulo-servicios'>Servicios de Tecnologías de la Información</h1>
                 <h2>Cable Estructurado</h2>
                 <p>
                     Diseño, ingeniería, implementación y soporte de redes de datos (cobre y fibra óptica), voz y vídeo.

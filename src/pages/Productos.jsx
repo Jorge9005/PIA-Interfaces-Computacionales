@@ -18,39 +18,39 @@ function Productos() {
                 <div class="productos-slider">
                     <div class="productos-card">
                         <img src={slide1} alt='slide1' />
-                        <h2>Card 1</h2>
+                        <h2>Barra Colectora</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide2} alt='slide2' />
-                        <h2>Card 2</h2>
+                        <h2>Cable de Fibra Óptica</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide4} alt='slide4' />
-                        <h2>Card 3</h2>
+                        <h2>Cámara de Ultra Gran Velocidad</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide5} alt='slide5' />
-                        <h2>Card 3</h2>
+                        <h2>Cámaras de seguridad</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide6} alt='slide6' />
-                        <h2>Card 3</h2>
+                        <h2>CAT 6 UNIVERSAL 48 PORT PATCH PA</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide7} alt='slide7' />
-                        <h2>Card 3</h2>
+                        <h2>Cable Estructurado</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide8} alt='slide8' />
-                        <h2>Card 3</h2>
+                        <h2>Configuración de Redes</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide9} alt='slide9' />
-                        <h2>Card 3</h2>
+                        <h2>PANASONIC KX</h2>
                     </div>
                     <div class="productos-card">
                         <img src={slide10} alt='slide10' />
-                        <h2>Card 3</h2>
+                        <h2>TELÉFONO PANASONIC KX-T7630SP</h2>
                     </div>
                 </div>
             </div>

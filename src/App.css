@@ -22,6 +22,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    background-color: #0a00008a;
 }
 
 .hero-inicio h1 {
@@ -107,6 +108,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+
 }
 
 .wrapper-Productos h1{
@@ -123,6 +125,8 @@
 .productos-slider-container {
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #0000008e;
+
 }
 
 .productos-slider {
@@ -169,7 +173,9 @@
     max-width: 1000px;
     text-align: justify;
     margin-bottom: 50px;
+    background-color: #0000008e;
 }
+
 
 @media (max-width: 501px) {
     .wrapper-Productos {
@@ -240,6 +246,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: justify;
+    background-color: #0000008e;
 }
 
 .container-titulo-servicios{
